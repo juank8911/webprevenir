@@ -1,0 +1,27 @@
+.headerIn
+{
+    /* position: fixed; */
+    width: 100%;
+    z-index: +1;
+    border-bottom-width: thick;
+    border-bottom-color: #6b6b6b;
+    border-bottom-style: solid;
+}
+
+.mainIn
+{
+    /* top: 0; */
+    /* left: 0; */
+    /* right: 0; */
+
+    /* padding-top: 250px; */
+}
+
+.planes
+{
+     
+    height: 33%; 
+    color: white; 
+    height: 300px; 
+    padding: 26px;
+}

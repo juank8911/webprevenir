@@ -1,0 +1,100 @@
+body,li, ul	{
+font-family: 'Raleway', sans-serif;
+}
+
+p, li, ul{
+text-align:justify;
+padding-bottom: 10px;
+}
+
+h1,h2,h3,h4,h5,h6{
+color: #00aeef;
+}
+
+
+.tituloHorario{
+font-size: 30px;
+font-weight: bold;
+color: #00aeef;
+}
+
+.navPrimero{
+padding:10px;
+}
+.navSegundo{
+padding:10px;
+text-align: center;
+}
+
+.menu{
+color: black;
+height: 100%;
+font-size: 20px;
+text-align: center;
+margin-left:20px;
+margin-right:20px;
+}
+
+.footerNew{
+background-color: #f8f9fa;
+}
+
+.contenido{
+
+background-color: #f8f9fa;
+padding: 50px;
+}
+.contenidoBlanco{
+
+background-color: white;
+padding: 50px;
+}
+
+.cuadroDiscontinuo{
+	border: 2px solid #fac502;
+    border-style: dashed;
+    border-radius: 49px;
+    padding: 20px;
+
+}
+
+.contenido2{
+
+background-color: #00aeef;
+padding: 50px 5px 50px 5px;
+}
+
+.tituloPrincipal{
+color: #00aeef;
+font-weight: bold;
+padding-bottom: 30px;
+}
+
+
+.subtitulo{
+color: #00aeef;
+font-weight: bold;
+padding-bottom: 20px;
+}
+
+.recuadro{
+background-color: #00aeef;
+padding: 20px;
+color: white !important;
+text-align:center;
+}
+
+.imagen{
+	max-width: 35%;
+    margin: auto;
+    display: block;
+}
+
+.carousel{
+	color: #00aeef;
+    font-weight: bold;
+}
+.accordion>.card .card-header{
+	background: white;
+	text-align: center;
+}

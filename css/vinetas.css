@@ -1,0 +1,11 @@
+.rss {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.rss li {
+   background: url("pre.png") 0 2px no-repeat;
+   padding: 0px 0 10px 28px;
+   font-size: large;
+}
