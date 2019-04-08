@@ -1,22 +1,22 @@
 <?php
   # Iniciando la variable de control que permitirá mostrar o no el modal
-$exibirModal = true;
+  $exibirModal = false;
   # Verificando si existe o no la cookie
-if(!isset($_COOKIE["mostrarModal"]))
-{
+  if(!isset($_COOKIE["mostrarModal"]))
+  {
     # Caso no exista la cookie entra aquí
     # Creamos la cookie con la duración que queramos
 
     //$expirar = 3600; // muestra cada 1 hora
     //$expirar = 10800; // muestra cada 3 horas
     //$expirar = 21600; //muestra cada 6 horas
-    $expirar = 0; //muestra cada 12 horas
+    $expirar = 600; //muestra cada 12 horas
     //$expirar = 86400;  // muestra cada 24 horas
     setcookie('mostrarModal', 'SI', (time() + $expirar)); // mostrará cada 12 horas.
     # Ahora nuestra variable de control pasará a tener el valor TRUE (Verdadero)
     $exibirModal = true;
   }
-  ?>
+?>
 
   
 
@@ -69,6 +69,7 @@ if(!isset($_COOKIE["mostrarModal"]))
     <!-- Header -->
 
     <header class="container-fluid">
+        <?php include './modalInicio.php';?>
       <?php include './nuevoNav.php'; ?>
     </header> 
 
@@ -78,7 +79,7 @@ if(!isset($_COOKIE["mostrarModal"]))
     <!-- Content -->
 
     <div class="container-fluid" id="contenidos"> 
-      <?php include './views/Paginas/inicio2.php'; ?>
+      
     </div>
 
 
@@ -102,6 +103,21 @@ if(!isset($_COOKIE["mostrarModal"]))
 </body>
 </html>
 
+<?php if($exibirModal === true) : // Si nuestra variable de control "$exibirModal" es igual a TRUE activa nuestro modal y será visible a nuestro usuario. ?>
+  <script>
+  $(document).ready(function()
+  {
+    // id de nuestro modal
+    $("#modalInicio").modal("show");
+  });
+ </script>
+  <?php endif; ?>
+
+  <script> $(document).ready(function(){
+$('#contenidos').load('views/Paginas/inicio2.php')
+    });
+  </script>
+  
 
 <script type="text/javascript">
   function cargaContenido(pag)
@@ -113,14 +129,4 @@ if(!isset($_COOKIE["mostrarModal"]))
 
   </script>
 
-  <?php if($exibirModal === true) : // Si nuestra variable de control "$exibirModal" es igual a TRUE activa nuestro modal y será visible a nuestro usuario. ?>
-  <script>
-  $(document).ready(function()
-  {
-    // id de nuestro modal
-    $("#modalInicio").modal("show");
-  });
- </script>
-  <?php endif; ?>
- </script>
   

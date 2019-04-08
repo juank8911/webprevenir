@@ -1,7 +1,8 @@
-
-<?php include './modalInicio.php';?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+<link rel="stylesheet" href="./css/gallery-grid.css">
 
 <div class="container-fluid">
+
 
   <div class="row">
     <div class="col-md-12">
@@ -81,6 +82,8 @@
             <div class="jumbotron jumbotron-fluid">
               <div class="container">
                 <h3 class="text-center subtitulo" style="padding-bottom: 0px !important">Servicios Iniciales</h3>
+                <br/>
+                <img src="images/prevenir/cofre.jpg" width="100%">
                 <ul class="rss" style="padding-top: 50px">
                   <li>Retiro del cuerpo en el lugar de fallecimiento.</li>
                   <li>Preparación y conservación del cuerpo para 24 horas.</li>
@@ -113,6 +116,8 @@
             <div class="jumbotron jumbotron-fluid">
               <div class="container">
                 <h3 class="text-center subtitulo" style="padding-bottom: 0px !important">Servicios Destino Final o cementerio.</h3>
+                <br/>
+                <img src="images/prevenir/ultimaMorada.jpg" width="100%">
                 <ul class="rss" style="padding-top: 50px">
                   <li>Bóveda o lote en uso temporal</li>
                   <li>Cementerios Distritales o municipales</li>
@@ -126,395 +131,81 @@
         </div>
       </div>
     </div>
-    <div class="col-md-1"></div>
-  </div>
-  <div class="row" style="padding-bottom: 20px"> 
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-      <?php include './views/Paginas/galeria.php'; ?>
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+       <div class="jumbotron jumbotron-fluid" style="background-color: #fcc802; ">
+         <div class="container-fluid">
+          <p class="text-center">* Carencias: aplican para todos los planes </p>
+          <p class="text-center">Es el tiempo que el servicio no está activo. “el objetivo del periodo de carencia es controlar la malversación y evitar que un cliente que haya sido diagnosticado previamente con alguna condición médica o enfermedad, contrate un servicio de previsión Exequial con el objeto de acceder de manera INMEDIATA al servicio”</p>
+          <p class="text-center"> * 72 horas para muerte accidental <br/>
+            * 60 días para muerte natural <br/>
+            * 180 días para enfermedades pre-existentes.<br/>
+          </p>
+          <h3 class="text-center" style="color:white">CUBRIMIENTO DE LOS SERVICIOS FUNERARIOS Y CEMENTERIOS.</h3>
+
+          <p class="text-center">- Cubrimiento a nivel nacional<br/>
+            - Carné informativo entregado en el momento de la vinculación.<br/>
+          *aplican condiciones y restricciones </p>
+        </div>
+      </div>
     </div>
     <div class="col-md-1"></div>
   </div>
-</div>
 
-<div class="contenido2"> 
- <div class="row"> 
-  <div class="col-md-12"> 
-    <h1 class="text-center tituloPrincipal" style="color: white !important"> PLANES PARA NUESTROS CLIENTES </h1>
-  </div>
+  <div class="col-md-1"></div>
 </div>
-<div class="row">
+<div class="row" style="padding-bottom: 20px"> 
   <div class="col-md-1"></div>
   <div class="col-md-10">
-    <div class="accordion" id="accordionExample">
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h5 class="mb-0">
-            <button class="btn btn-link carousel" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-              PREVENIR DESCUENTOS MEDICOS
-            </button>
-          </h5>
-        </div>
+    
 
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-          <div class="card-body">
-            <h3 class="text-center tituloPrincipal" style="padding-bottom: 0 !important"> PLAN DESCUENTOS MEDICOS </h3>
-            <h6 class="text-center tituloPrincipal"> Valores agregados para nuestros afiliados </h6>
-            <div class="row">
-              <div class="col-md-1"></div>
-              <div class="col-md-10">
-               <h5 class="recuadro">* Descuentos en servicios médicos, odontológicos, clínicos y de laboratorio</h5>
 
-             </div>
-             <div class="col-md-1"></div>
-           </div>
-           <div class="row" style="padding-top: 50px">
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
-             <img src="images/prevenir/Medico2.jpg" style="max-width: 100%; width: 800px; display: block;margin: auto;" >
-           </div> 
-           <div class="col-md-5">
+    <div class="container-fluid gallery-container">
 
-            <ul class="rss" style="padding-top: 50px">
-              <li>Medicina General</li>
-              <li>Especialistas</li>
-              <li>Medicina del dolor</li>
-              <li>Laboratorio clínico</li>
-              <li>Exámenes Especializados</li>
-              <li>Fisioterapia</li>
-            </ul> 
+
+      <div class="tz-gallery">
+
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-sm-6 col-md-2">
+            <a class="lightbox" href="./img/1.jpeg">
+              <img src="./img/1.jpeg" alt="Park">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <a class="lightbox" href="./img/2.jpeg">
+              <img src="./img/2.jpeg" alt="Park">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <a class="lightbox" href="./img/3.jpeg">
+              <img src="./img/3.jpeg" alt="Park">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <a class="lightbox" href="./img/4.jpeg">
+              <img src="./img/4.jpeg" alt="Park">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <a class="lightbox" href="./img/5.jpeg">
+              <img src="./img/5.jpeg" alt="Park">
+            </a>
           </div>
           <div class="col-md-1"></div>
+          
         </div>
-        <div class="row" style="padding-top: 50px">
-          <div class="col-md-1"></div>
-          <div class="col-md-5">
-            <!-- <h5 class="recuadro">* Descuentos en atención y diagnostico veterinario</h5> -->
-            <div class="row" style="padding-top: 50px">
-              <div class="col-md-4 justify-content-center">
-                <img src="images/prevenir/martillo.png" class="imagen" alt="juridico">
-                <h3 style="text-align: center">Prevenir Jurídico</h3>
-              </div>
-              <div class="col-md-4 justify-content-center">
-                <img src="images/prevenir/dinero.png" class="imagen" alt="juridico">
-                <h3 style="text-align: center">Prevenir Contable</h3>
-              </div>
-              <div class="col-md-4 justify-content-center">
-                <img src="images/prevenir/idea.png" class="imagen" alt="juridico">
-                <h3 style="text-align: center">Psicológico</h3>
-              </div> 
-            </div>
-          </div> 
-          <div class="col-md-5">
-            <img src="images/prevenir/veterinario.PNG" style="max-width: 100%; width: 800px;" >
-            <h5 class="recuadro">* Descuentos en atención y diagnostico veterinario</h5>
-          </div>
-          <div class="col-md-1"></div>
-        </div>
-        <div class="row" style="padding-top: 50px">
-          <div class="col-md-1"></div>
-          <div class="col-md-12">
-            <h3 style="text-align: center">Valores agregados para nuestros afiliados</h3>
-            <div class="row">
-              <div class="col-md-1"></div> 
-              <div class="col-md-5">
-               <img src="images/prevenir/paciente.jpg" style="max-width:100%; width:800px" > 
-             </div>
-             <div class="col-md-5">
-              <ul class="rss" style="padding-top: 50px">
-                <li>Jóvenes saludabales</li>
-                <li>Mujer libre de cancer de cuello uterino</li>
-                <li>Mujer libre de cáncer de mama</li>
-                <li>Programa de salud visual</li>
-                <li>Programa de salud oral</li>
-              </ul> 
-            </div>
-            <div class="col-md-1"></div> 
-          </div>
-        </div>
-        <div class="col-md-1"></div>
-      </div> 
-    </div>
-  </div>
-</div>
-<div class="card">
-  <div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-      <button class="btn btn-link collapsed carousel" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        PLAN INDIVIDUAL LIBRANZA
-      </button>
-    </h5>
-  </div>
-  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-    <div class="card-body">
-      <div class="row" style="padding-top: 50px">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-         <img src="images/prevenir/familiaSuegros.jpg" style="max-width: 100%; width: 800px; display: block;margin: auto;" >
-       </div> 
-       <div class="col-md-5">
-        <h3 class="text-center tituloPrincipal" style="padding-bottom: 0 !important"> INDIVIDUAL LIBRANZA </h3>
-        <div class="recuadro">
-         <h5 style="color: white"> Un plan diseñado para familias numerosas 8 miembros del grupo familiar incluidos padres y suegros $ 14.600.oo Mensual..</h5>
-         <small>"Titular + 11 beneficiarios  hasta los 70 años – Beneficiarios previamente inscritos 
-          “hijos, hermanos, primos, tíos, sobrinos, cuñados, nueras, yernos, padrastros, hijastros, 
-          hermanastros, ex_esposo(a), uno sin parentesco. Padres o suegros sin límite de edad máximo (2)
-          dos los otros dos si los tuviese hasta los 84 años “(máximo 2 Peluditos con carencia 180 días)”
-        Todos los beneficiarios mayores a 65 años carencia obligatoria 90 Días.</small>
+
       </div>
 
     </div>
-    <div class="col-md-1"></div>
+
   </div>
+  <div class="col-md-1"></div>
 </div>
 </div>
-</div>
-<div class="card">
-  <div class="card-header" id="headingThree">
-    <h5 class="mb-0">
-      <button class="btn btn-link collapsed carousel" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        PLAN INDIVIDUAL VENTANILLA
-      </button>
-    </h5>
-  </div>
-  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-    <div class="card-body">
-      <div class="row" style="padding-top: 50px">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-          <h3 class="text-center tituloPrincipal" style="padding-bottom: 0 !important"> INDIVIDUAL VENTANILLA </h3>
-          <div class="recuadro">
-           <h5 style="color: white"> Un plan diseñado para familias pequeñas con el objetivo que paguen solo por las personas que afilian un costo de $ 21.990 por persona un solo pago al año</h5>
-           <small>Ejemplo: grupo Familiar de (3) personas C/u: $21.990 * 3 personas = $65.970 El año Se puede financiar máximo a tres pagos, planes superiores a cinco (5) integrantes. Previamente inscritos *Titular y beneficiarios hasta los 64 años, padres hasta los 79 años.</small>
-         </div>
-
-       </div>
-       <div class="col-md-5">
-        <img src="images/prevenir/familiaPeque.jpg" style="max-width: 100%; width: 800px; display: block;margin: auto;" >
-      </div> 
-
-      <div class="col-md-1"></div>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="card">
-  <div class="card-header" id="headingFourth">
-    <h5 class="mb-0">
-      <button class="btn btn-link collapsed carousel" type="button" data-toggle="collapse" data-target="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth">
-        PLAN PATRIARCA
-      </button>
-    </h5>
-  </div>
-  <div id="collapseFourth" class="collapse" aria-labelledby="headingFourth" data-parent="#accordionExample">
-   <div class="card-body">
-    <div class="row" style="padding-top: 50px">
-      <div class="col-md-1"></div>
-      <div class="col-md-5">
-       <img src="images/prevenir/abuelitos.jpg" style="max-width: 100%; width: 800px; display: block;margin: auto;" >
-     </div> 
-     <div class="col-md-5">
-      <h3 class="text-center tituloPrincipal" style="padding-bottom: 0 !important"> PLAN PATRIARCA </h3>
-      <div class="recuadro">
-       <h5 style="color: white">Es un plan diseñado para comprar de manera anticipada y preventiva</h5>
-       <small>4 sin límite de edad: titular, padres, suegros y cónyuge.
-       para nuestros seres queridos mayores que por la edad No Aplican a nuestros planes y así tener tranquilidad en momentos difíciles “este plan no incrementa el costo ni vence con el tiempo”. $ 2.450.000.oo dividido máximo en 24 cuotas</small>
-     </div>
-
-   </div>
-   <div class="col-md-1"></div>
- </div>
-</div>
-</div>
-</div>
-
-<div class="card">
-  <div class="card-header" id="headingFive">
-    <h5 class="mb-0">
-      <button class="btn btn-link collapsed carousel" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-        PLAN PELUDITOS
-      </button>
-    </h5>
-  </div>
-  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-   <div class="card-body">
-    <div class="row" style="padding-top: 50px">
-      <div class="col-md-1"></div>
-      <div class="col-md-5">
-        <h3 class="text-center tituloPrincipal" style="padding-bottom: 0 !important"> PLAN MASCOTAS </h3>
-        <ul class="rss">
-          <br>
-          <h5 class="tituloPrincipal" style="padding: 10px !important"> Servicios </h5>
-          <li>Retiro de la mascota en el lugar del fallecimiento (dentro del perímetro urbano).</li>
-          <li>Cremación y cofre para las cenizas.</li>
-          <li>Vehículo para acompañantes máximo cuatro personas en caso de entierro. “Opcional”</li>
-          <li>Este servicio es para perros, gatos</li>
-          <h5 class="tituloPrincipal "style="padding: 10px !important"> Trámites </h5>
-          <li>Cementerio jardín de paz cielo animal Sana Sana o Cremación para la mascota.</li>
-          <li>El plan mascotas es un adicional al plan que el cliente escoja “NO se puede contratar solo el plan mascotas”.</li>
-          <li>Carencia de 90 días.</li>
-          <br>
-        </ul>
-      </div>
-      <div class="col-md-5">
-        <img src="images/prevenir/patita.jpg" style="max-width: 100%; width: 800px; display: block;margin: auto;" >
-      </div> 
-
-      <div class="col-md-1"></div>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="card">
-  <div class="card-header" id="headingSix">
-    <h5 class="mb-0">
-      <button class="btn btn-link collapsed carousel" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-        PLAN GERENCIAL LIBRANZA
-      </button>
-    </h5>
-  </div>
-  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-    <div class="card-body">
-      <div class="row" style="padding-top: 50px">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-         <img src="images/prevenir/familia-numerosa.jpg" style="max-width: 100%; width: 800px; display: block;margin: auto;" >
-       </div> 
-       <div class="col-md-5">
-        <h3 class="text-center tituloPrincipal" style="padding-bottom: 0 !important"> GENERAL LIBRANZA </h3>
-        <div class="recuadro">
-         <h5 style="color: white">un plan diseñado para familias numerosas 12 miembros del grupo familiar incluidos padres suegros $ 19.990. oo Mensual.</h5>
-         <small>Ejemplo: grupo Familiar de (3) personas C/u: $21.990 * 3 personas = $65.970 El año Se puede financiar máximo a tres pagos, planes superiores a cinco (5) integrantes. Titular + 11 beneficiarios hasta los 70 años – Beneficiarios previamente inscritos “hijos, hermanos, primos, tíos, sobrinos, cuñados, nueras, yernos, padrastros, hijastros, hermanastros, ex_esposo(a), uno sin parentesco. Padres o suegros sin límite de edad máximo (2) dos los otros dos si los tuviese hasta los 84 años “(máximo 2 Peluditos con carencia 180 días)” Todos los beneficiarios mayores a 65 años carencia obligatoria 90 Días. </small>
-       </div>
-
-     </div>
-     <div class="col-md-1"></div>
-   </div>
- </div>
-</div>
-</div>
-
-<div class="card">
-  <div class="card-header" id="headingSeven">
-    <h5 class="mb-0">
-      <button class="btn btn-link collapsed carousel" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-        PLAN BASICO LIBRANZA
-      </button>
-    </h5>
-  </div>
-  <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
-    <div class="card-body">
-      <div class="row" style="padding-top: 50px">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-          <h3 class="text-center tituloPrincipal" style="padding-bottom: 0 !important"> BÁSICO LIBRANZA </h3>
-          <div class="recuadro">
-           <h5 style="color: white">Un plan diseñado para familias numerosas 8 miembros del grupo familiar incluidos padres y suegros $ 14.600. oo Mensual. al año</h5>
-           <small>Titular + 7 beneficiarios hasta los 70 años – Beneficiarios previamente inscritos “hijos, hermanos, primos, tíos, sobrinos, cuñados, nueras, yernos, padrastros, hijastros, hermanastros, ex_esposo(a), uno sin parentesco. Padres o suegros sin límite de edad máximo (2) dos los otros dos si los tuviese hasta los 84 años “(máximo 2 Peluditos con carencia 180 días)” Todos los beneficiarios mayores a 65 años carencia obligatoria 90 Días</small>
-         </div>
-
-       </div>
-       <div class="col-md-5">
-        <img src="images/prevenir/familia_Numerosa.jpg" style="max-width: 100%; width: 800px; display: block;margin: auto;" >
-      </div> 
-
-      <div class="col-md-1"></div>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="card">
-  <div class="card-header" id="headingEight">
-    <h5 class="mb-0">
-      <button class="btn btn-link collapsed carousel" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-        PLAN VEHICULAR
-      </button>
-    </h5>
-  </div>
-  <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
-    <div class="card-body">
-      <div class="row" style="padding-top: 50px">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-         <img src="images/prevenir/planVehi.jpg" style="max-width: 100%; width: 800px; display: block;margin: auto;" >
-       </div>
-       <div class="col-md-5">
-         <h3 class="text-center tituloPrincipal" style="padding-bottom: 0 !important"> PLAN VEHICULAR </h3>
-         <div class="recuadro">
-           <h5 style="color: white">Un plan diseñado para familias pequeñas con el objetivo que paguen solo por las personas que afilian un costo de $ 21.990 por persona un solo pago al año.</h5>
-           <small>Ejemplo: grupo Familiar de (3) personas C/u: $21.990 * 3 personas = $65.970 El año Se puede financiar máximo a tres pagos, planes superiores a cinco (5) integrantes. Previamente inscritos *Titular y beneficiarios hasta los 64 años, padres hasta los 79 años. </small>
-         </div>
-       </div> 
-
-       <div class="col-md-1"></div>
-     </div>
-   </div>
- </div>
-</div>
-
-</div>
-
-</div>
-</div>
-</div>
-
-<div class="contenido">
-  <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-     <h1 class="text-center tituloPrincipal"> NUESTROS SERVICIOS </h1>
-     <div class="row">
-      <div class="col-md-6">
-        <h3 class="tituloPrincipal" style="padding-bottom: 0 !important"> Servicios Funerarios </h3>
-        <ul class="rss" style="padding-top: 10px">
-          <li>Trámites legales y notariales.</li>
-          <li>Traslado del cuerpo dentro del municipio.</li>
-          <li>Preparación y conservación del cuerpo.</li>
-          <li>Cofre fúnebre (2 referencias).</li>
-          <li>Sala de velación por 24 horas.</li>
-          <li>Serie de carteles, Arreglo floral.</li>
-          <li>Suministro de libro recordatorio de firmas de asistentes.</li>
-          <li>Rosario y guía para oración.</li>
-          <li>Cinta impresa con el nombre de la persona fallecida.</li>
-          <li>Traslado del cuerpo al sitio de velación y ceremonia en carroza fúnebre.</li>
-          <li>Servicio de cafetería personalizado.</li>
-          <li>Ceremonia Religiosa (cualquier credo).</li>
-          <li>Vehículo privado para transporte de acompañantes Para cabecera municipal 25 pasajeros.</li>
-        </ul> 
-      </div>
-      <div class="col-md-6">
-        <img src="images/prevenir/cofre.jpg"  style="max-width: 100%; width: 800px;">
-      </div>
-    </div>
-    <br/>
-    <div class="row">
-      <div class="col-md-6">
-        <img src="images/prevenir/ultimaMorada.jpg"  style="max-width: 100%; width: 800px;">
-      </div>
-      <div class="col-md-6">
-
-
-       <h3 class="tituloPrincipal" style="padding-bottom: 0 !important"> Servicios Funerarios </h3>
-       <ul class="rss" style="padding-top: 10px">
-        <li>Bóveda o lote en uso temporal y Osario.</li>
-        <li>Cremación y cofre cenízario.</li>
-        <li>Traslado aéreo y/o terrestre para el cuerpo de la persona fallecida.</li>
-        <li>Cementerios Distritales, Municipales o parque cementerio</li>
-        <li>Carencias 72 horas para muerte accidental, 60 días para muerte natural y 180 días para enfermedades pre existentes.</li>
-        <li>Cubrimiento del 100% de los servicios funerarios y cementerios</li>
-        <li>Cubrimiento a nivel nacional.</li>
-        <li>Carné informativo entregado en el momento de la vinculación con las líneas emergencia funeraria.</li>
-      </ul>
-    </div>
-  </div>
-</div>
-<div class="col-md-1"></div>
-</div>
-</div>
-
 
 
 </div>
@@ -523,3 +214,8 @@
 
 </div> 
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+  baguetteBox.run('.tz-gallery');
+</script>
