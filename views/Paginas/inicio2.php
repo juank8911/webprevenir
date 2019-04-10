@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-<link rel="stylesheet" href="./css/gallery-grid.css">
+<link rel="stylesheet" href="./css/galeria.css">
+
 
 <div class="container-fluid">
 
@@ -135,7 +135,7 @@
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
-       <div class="jumbotron jumbotron-fluid" style="background-color: #fcc802; ">
+       <div class="jumbotron jumbotron-fluid" style="background-color: #07b0ef;">
          <div class="container-fluid">
           <p class="text-center">* Carencias: aplican para todos los planes </p>
           <p class="text-center">Es el tiempo que el servicio no está activo. “el objetivo del periodo de carencia es controlar la malversación y evitar que un cliente que haya sido diagnosticado previamente con alguna condición médica o enfermedad, contrate un servicio de previsión Exequial con el objeto de acceder de manera INMEDIATA al servicio”</p>
@@ -157,53 +157,30 @@
   <div class="col-md-1"></div>
 </div>
 <div class="row" style="padding-bottom: 20px"> 
-  <div class="col-md-1"></div>
-  <div class="col-md-10">
-    
 
-
-    <div class="container-fluid gallery-container">
-
-
-      <div class="tz-gallery">
-
-        <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-sm-6 col-md-2">
-            <a class="lightbox" href="./img/1.jpeg">
-              <img src="./img/1.jpeg" alt="Park">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-2">
-            <a class="lightbox" href="./img/2.jpeg">
-              <img src="./img/2.jpeg" alt="Park">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-2">
-            <a class="lightbox" href="./img/3.jpeg">
-              <img src="./img/3.jpeg" alt="Park">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-2">
-            <a class="lightbox" href="./img/4.jpeg">
-              <img src="./img/4.jpeg" alt="Park">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-2">
-            <a class="lightbox" href="./img/5.jpeg">
-              <img src="./img/5.jpeg" alt="Park">
-            </a>
-          </div>
-          <div class="col-md-1"></div>
-          
+  <div class="col-md-12">
+    <div class="jumbotron jumbotron-fluid">
+      <div id="wrapper">
+        <div id="image">
+          <div class="image i1"><img style="width: 100%" src="./img/1.jpeg"></div>
+          <div class="image i2"><img style="width: 100%" src="./img/2.jpeg"></div>
+          <div class="image i3"><img style="width: 100%" src="./img/2.jpeg"></div>
+          <div class="image i4"><img style="width: 100%" src="./img/4.jpeg"></div>
+          <div class="image i5"><img style="width: 100%" src="./img/5.jpeg"></div>
+          <div class="image i6"><img style="width: 100%" src="./img/4.jpeg"></div>
+          <div class="image i7"><img style="width: 100%" src="./img/5.jpeg"></div>
+          <div class="image i8"><img style="width: 100%" src="./img/5.jpeg"></div>
         </div>
-
       </div>
-
     </div>
 
+    <style type="text/css">
+
+    
+        </style>
+
   </div>
-  <div class="col-md-1"></div>
+
 </div>
 </div>
 
@@ -214,8 +191,3 @@
 
 </div> 
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script>
-  baguetteBox.run('.tz-gallery');
-</script>

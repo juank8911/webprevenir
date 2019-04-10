@@ -10,6 +10,10 @@ p, li, ul{
 h1,h2,h3,h4,h5,h6{
     color: #00aeef;
 }
+a:hover{
+    color: #ffc705;
+    text-decoration: none;
+}
 
 .jumbotron, .jumbotron-fluid
 {
@@ -17,7 +21,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .tituloHorario{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: #00aeef;
 }
@@ -64,7 +68,7 @@ h1,h2,h3,h4,h5,h6{
 
 .contenido2{
 
-    background-color: #00aeef;
+    background-color: #00b1f0;
     padding: 50px 5px 50px 5px;
 }
 
@@ -74,11 +78,25 @@ h1,h2,h3,h4,h5,h6{
     padding-bottom: 30px;
 }
 
+.cardTitulo{
+    background-color: #00aeef;
+}
+.cartText{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 
 .subtitulo{
     color: #00aeef;
     font-weight: bold;
     padding-bottom: 20px;
+}
+
+.btn-link:hover {
+    color: #ffffff !important;
+    text-decoration: none !important;
 }
 
 .recuadro{
@@ -104,15 +122,20 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .sliderPalabras{
- background-color: #00aeef;
- text-align: center;
- font-size: 1,8vw;
- color: white;
- padding: 50px;
+   background-color: #00aeef;
+   text-align: center;
+   font-size: 1,8vw;
+   color: white;
+   padding: 50px;
 }
 .recuadro2{
     background-color: #ffc107;
     padding: 20px;
     color: white !important;
     text-align: center;
+}
+
+.menuItems{
+    color: #00aeef;
+    font-weight: 500;
 }

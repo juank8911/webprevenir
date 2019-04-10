@@ -6,4 +6,6 @@ $telefono = $_POST['tel'];
 $depa = $_POST['Depa'];
 $mun = $_POST['Mun'];
 
+mail('ruthstefania28@gmail.com', 'Nuevo Registro Prevenir Express' , $nombreCompleto)
+
 ?>

@@ -1,9 +1,9 @@
 <div class="row">
-	<div class=col-md-1></div>
-	<div class=col-md-10>
+	
+	<div class=col-md-12>
 		<img src="images/prevenir/familia.jpg" style="max-width: 100%; width: 100%;">
 	</div>
-	<div class=col-md-1></div>
+
 </div>
 
 <div class="contenido"> 
@@ -16,51 +16,7 @@
 		<div class=col-md-1></div>
 	</div>
 
-	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-6"> 
-			<form method="post" action="./Views/Paginas/datos.php">
-				<div class="form-group">
-					<label for="name">Nombre Completo</label>
-					<input type="text" class="form-control" id="name">
-				</div>
-				<div class="form-group">
-					<label for="identification">Cédula</label>
-					<input type="text" class="form-control" id="identification">
-				</div>
-				<div class="form-group">
-					<label for="email">Correo Electrónico:</label>
-					<input type="email" class="form-control" id="email">
-				</div>
-				<div class="form-group">
-					<label for="tel">Teléfono:</label>
-					<input type="text" class="form-control" id="tel">
-				</div>
 
-				<div class="row">
-					<div class="col-md-12">	
-						<div class="col-md-6">	
-							<div class="form-group">
-								<label for="Depa">Departamento:</label>
-								<input type="text" class="form-control" id="Depa">
-
-							</div>
-						</div>
-						<div class="col-md-6">	
-							<div class="form-group ">
-								<label for="Mun">Municipio:</label>
-								<input type="text" class="form-control" id="Mun">
-
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<button type="submit" class="btn btn-primary">Enviar</button>
-			</form>
-		</div>
-		<div class="col-md-1"></div>	
-	</div>
 
 
 	<div class="row"> 
@@ -93,6 +49,123 @@
 		</div>
 		<div class=col-md-1></div>
 	</div>
+	<br/>
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-6"> 
+			<h1 class="Subtitulo ">Envíanos tus comentarios</h1>
+			<br/>
+			<form id="form1" data-toggle="validator" role="form">
+				<div class="form-group">
+					<label for="name">Nombre Completo</label>
+					<input type="text" class="form-control" name="name" id="name" required>
+					<span class="help-block"> </span>
+				</div>
+				<div class="form-group">
+					<label for="identification">Cédula</label>
+					<input type="text" class="form-control" name="identification" id="identification" required>
+				</div>
+				<div class="form-group">
+					<label for="email">Correo Electrónico:</label>
+					<input type="email" class="form-control" name="mail" id="mail" required>
+				</div>
+				<div class="form-group">
+					<label for="tel">Teléfono:</label>
+					<input type="text" class="form-control" pattern="^[0-9]$" name="tel" id="tel" required>
+				</div>
 
+				<div class="row">
+					
+					<div class="col-md-6">	
+						<div class="form-group">
+							<label for="Depa">Departamento:</label>
+							<input type="text" class="form-control" name="Depa" id="Depa" required>
 
+						</div>
+					</div>
+					<div class="col-md-6">	
+						<div class="form-group ">
+							<label for="Mun">Municipio:</label>
+							<input type="text" class="form-control" name="Mun" id="Mun" required>
+
+						</div>
+					</div>
+					
+				</div>
+				<div class="row">
+					<div class="col-md-12">	
+						<div class="form-group">
+							<label for="asunto">Asunto:</label>
+							<input type="text" class="form-control" name="asunto" id="asunto" required></textarea>
+
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">	
+						<div class="form-group">
+							<label for="mensaje">Mensaje:</label>
+							<textarea class="form-control" name="mensaje" id="mensaje" required></textarea>
+
+						</div>
+					</div>
+				</div>
+
+				
+				<input type="button" value="Enviar" id="Save" class="btn btn-primary"></input>
+			</form>
+		</div>
+		<div class="col-md-4">
+			<img src="images/prevenir/GifLíneasFunenrarias.gif" style="max-width: 100%; width: 50%; display: block; margin: auto;">	
+		</div>
+		<div class="col-md-1"></div>	
+	</div>
 </div>
+
+<script type="text/javascript">
+	$(document).on("ready", inicio);
+
+	function inicio(){
+		$("span.help-block").hide();
+		$("#Save").click(validar);
+	}
+
+	function validar(){
+		alert("Enviar");
+	}
+</script>
+
+
+<script>
+	$(document).ready(function () {
+		$("#Save").click(function () {
+			var mail = new Object();
+			mail.name = $('#name').val();
+			mail.identification = $('#identification').val();
+			mail.mail = $('#mail').val();
+			mail.tel = $('#tel').val();
+			mail.Depa = $('#Depa').val();
+			mail.Mun = $('#Mun').val();
+			mail.asunto = $('#asunto').val();
+			mail.mensaje = $('#mensaje').val();
+			
+			console.log(mail);
+
+			$.ajax({
+				url: 'http://localhost:3300/emails',
+				type: 'POST',
+				dataType: 'json',
+				data: JSON.stringify(mail),
+				contentType: 'application/json; charset=utf-8',
+				dataType: 'json',
+				success: function (data, textStatus, xhr) {
+					console.log(data);
+					document.getElementbyID()
+				},
+				error: function (xhr, textStatus, errorThrown) {
+					console.log('Error in Operation');
+				}
+			});
+		});
+	});
+</script>

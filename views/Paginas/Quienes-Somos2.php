@@ -1,9 +1,9 @@
 <div class="row">
-	<div class=col-md-1></div>
-	<div class=col-md-10>
+	
+	<div class=col-md-12>
 		<img src="images/prevenir/familia.jpg" style="max-width: 100%; width: 100%;">
 	</div>
-	<div class=col-md-1></div>
+	
 </div>
 
 <div class="contenido"> 
