@@ -25,7 +25,7 @@
           </h5>
         </div>
 
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
           <div class="card-body">
             <h3 class="text-center tituloPrincipal" style="padding-bottom: 0 !important"> PLAN DESCUENTOS MEDICOS </h3>
             <h6 class="text-center tituloPrincipal"> Valores agregados para nuestros afiliados </h6>

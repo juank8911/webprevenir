@@ -5,6 +5,7 @@ body,li, ul	{
 p, li, ul{
     text-align:justify;
     padding-bottom: 10px;
+    font-size: 18px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -18,6 +19,7 @@ a:hover{
 .jumbotron, .jumbotron-fluid
 {
     font-family: 'Raleway', sans-serif;
+    padding: 2vw;
 }
 
 .tituloHorario{
@@ -95,7 +97,7 @@ a:hover{
 }
 
 .btn-link:hover {
-    color: #ffffff !important;
+    color: #ff9900 !important;
     text-decoration: none !important;
 }
 
@@ -140,3 +142,10 @@ a:hover{
     color: #07A9DF;
     font-weight: 500;
 }
+
+@media screen and (max-width: 1920px) {
+.galery{
+display:none;
+}
+}
+

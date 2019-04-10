@@ -20,19 +20,20 @@
 
 			<p>GRUPO PREVENIR EXPRESS Sas. Es un enlace entre el usuario y el tercero para que apliquen los descuentos del servicio y NO se hace responsable de incumplimientos, malos procedimientos pero estará muy atento a las sugerencia quejas y reclamos para dar un buen servicio </p>
 
-			<h2>Tratamientos De Datos Privacidad Y Confidencialidad</h2>
+			<h2 class="text-center">Tratamientos De Datos Privacidad Y Confidencialidad</h2>
+			<br/>
 			
 			<div id="accordion">
 				<div class="card">
 					<div class="card-header cardTitulo" id="headingOne">
 						<h5 class="mb-0">
-							<button class="btn btn-link cartText" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							<button class="btn btn-link cartText" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
 								1. TRATAMIENTO DE DATOS PERSONALES
 							</button>
 						</h5>
 					</div>
 
-					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
 						<div class="card-body">
 							<p>GRUPO PREVENIR EXPRESS sas. (En adelante, “GRUPO PREVENIR o GP"), identificada con NIT 900690163-6, ubicada en la carrera 29 No 17 – 89 segundo piso, Pasto Nariño, con número de teléfonos (2) 7290038 Wpp 310 4351937, 3172645522, E-mail admin@prevenirexpress.com, es el titular del tratamiento de los datos personales de las personas naturales usuarias del sitio http://www.prevenirexpress.com. Debido a la actividad comercial que desarrolla GP, y dando cumplimiento al Decreto 1377 de 2013, les informamos a los titulares de los datos personales que GP lleva a cabo los siguientes tipos de Tratamiento sobre sus datos personales. </p>
 							<p>1. Protegiendo: Sus derechos frente al Tratamiento de sus datos personales. GP está comprometido con proteger su privacidad y garantizar sus derechos al habeas data para que Usted pueda conocer, actualizar y rectificar los datos personales que administre GRUPO PREVENIR. Esta Política de Tratamiento de Datos es referente al uso que GRUPO PREVENIR ESPRESS sas. Le dará a los datos personales que reposen en sus registros de conformidad con lo establecido en la ley 1581 de 2012 y el Decreto 1377 de 2013. </p>

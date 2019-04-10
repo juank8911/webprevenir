@@ -9,16 +9,16 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/prevenir/banners/bannerNuevo1.png" class="d-block w-100" alt="...">
+            <img src="images/prevenir/banners/banner1.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images/prevenir/banners/bannerNuevo2.png" class="d-block w-100" alt="...">
+            <img src="images/prevenir/banners/banner2.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images/prevenir/banners/bannerNuevo3.png" class="d-block w-100" alt="...">
+            <img src="images/prevenir/banners/banner3.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images/prevenir/banners/bannerNuevo4.png" class="d-block w-100" alt="...">
+            <img src="images/prevenir/banners/banner4.png" class="d-block w-100" alt="...">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -76,6 +76,11 @@
         <h2 class="text-center tituloPrincipal"> CALIDAD DE SERVICIO </h2>
         <h3 class="text-center subtitulo"> “¿Que entregamos en un servicio funerario?”</h3>
         <p class="text-center">El servicio funerario se discrimina en tres componentes</p>
+    
+      </div>
+      <div class="row-md-1"></div>
+    </div>
+
         <div class="row">
 
           <div class="col-md-4">
@@ -129,12 +134,10 @@
           </div>
 
         </div>
-      </div>
-    </div>
 
     <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
+     
+      <div class="col-md-12">
        <div class="jumbotron jumbotron-fluid" style="background-color: #07b0ef;">
          <div class="container-fluid">
           <p class="text-center">* Carencias: aplican para todos los planes </p>
@@ -151,7 +154,6 @@
         </div>
       </div>
     </div>
-    <div class="col-md-1"></div>
   </div>
 
   <div class="col-md-1"></div>
@@ -161,7 +163,7 @@
   <div class="col-md-12">
     <div class="jumbotron jumbotron-fluid">
       <div id="wrapper">
-        <div id="image">
+        <div id="image" class="galery">
           <div class="image i1"><img style="width: 100%" src="./img/1.jpeg"></div>
           <div class="image i2"><img style="width: 100%" src="./img/2.jpeg"></div>
           <div class="image i3"><img style="width: 100%" src="./img/2.jpeg"></div>
