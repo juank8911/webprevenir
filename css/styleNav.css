@@ -8,7 +8,7 @@ p, li, ul{
 }
 
 h1,h2,h3,h4,h5,h6{
-    color: #00aeef;
+    color: #07A9DF;
 }
 a:hover{
     color: #ffc705;
@@ -23,7 +23,7 @@ a:hover{
 .tituloHorario{
     font-size: 20px;
     font-weight: bold;
-    color: #00aeef;
+    color: #07A9DF;
 }
 
 .navPrimero{
@@ -68,18 +68,18 @@ a:hover{
 
 .contenido2{
 
-    background-color: #00b1f0;
+    background-color: #07A9DF;
     padding: 50px 5px 50px 5px;
 }
 
 .tituloPrincipal{
-    color: #00aeef;
+    color: #07A9DF;
     font-weight: bold;
     padding-bottom: 30px;
 }
 
 .cardTitulo{
-    background-color: #00aeef;
+    background-color: #07A9DF;
 }
 .cartText{
     color: white;
@@ -89,7 +89,7 @@ a:hover{
 
 
 .subtitulo{
-    color: #00aeef;
+    color: #07A9DF;
     font-weight: bold;
     padding-bottom: 20px;
 }
@@ -100,20 +100,21 @@ a:hover{
 }
 
 .recuadro{
-    background-color: #00aeef;
+    background-color: #07A9DF;
     padding: 20px;
     color: white !important;
     text-align:center;
 }
 
 .imagen{
-	max-width: 35%;
+	max-width: 50%;
+    width: 300px;
     margin: auto;
     display: block;
 }
 
 .carousel{
-	color: #00aeef;
+	color: #07A9DF;
     font-weight: bold;
 }
 .accordion>.card .card-header{
@@ -122,7 +123,7 @@ a:hover{
 }
 
 .sliderPalabras{
-   background-color: #00aeef;
+   background-color: #07A9DF;
    text-align: center;
    font-size: 1,8vw;
    color: white;
@@ -136,6 +137,6 @@ a:hover{
 }
 
 .menuItems{
-    color: #00aeef;
+    color: #07A9DF;
     font-weight: 500;
 }

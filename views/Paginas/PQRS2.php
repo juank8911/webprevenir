@@ -67,11 +67,11 @@
 				</div>
 				<div class="form-group">
 					<label for="email">Correo Electrónico:</label>
-					<input type="email" class="form-control" name="mail" id="mail" required>
+					<input type="email" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="mail" id="mail" required>
 				</div>
 				<div class="form-group">
 					<label for="tel">Teléfono:</label>
-					<input type="text" class="form-control" pattern="^[0-9]$" name="tel" id="tel" required>
+					<input type="number" class="form-control" pattern="[0-9]*" name="tel" id="tel" required>
 				</div>
 
 				<div class="row">
@@ -122,7 +122,7 @@
 	</div>
 </div>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 	$(document).on("ready", inicio);
 
 	function inicio(){
@@ -130,11 +130,11 @@
 		$("#Save").click(validar);
 	}
 
-	function validar(){
+	window.onload = function validar(){
 		alert("Enviar");
 	}
 </script>
-
+ -->
 
 <script>
 	$(document).ready(function () {
@@ -148,19 +148,38 @@
 			mail.Mun = $('#Mun').val();
 			mail.asunto = $('#asunto').val();
 			mail.mensaje = $('#mensaje').val();
+
+			$("span.help-block").hide();
 			
+
+			var valor = document.getElementById("name").value;
+			// if(valor == null || valor.length == 0 || /^\s+$/.test(valor))
+			// {
+			// 	return false;
+			// }
+			alert(valor);
 			console.log(mail);
 
 			$.ajax({
-				url: 'http://localhost:3300/emails',
+				url: 'http://cdn.prevenirexpress.com:3000/emails',
 				type: 'POST',
 				dataType: 'json',
 				data: JSON.stringify(mail),
 				contentType: 'application/json; charset=utf-8',
 				dataType: 'json',
 				success: function (data, textStatus, xhr) {
-					console.log(data);
-					document.getElementbyID()
+
+					var respuesta = data[0];
+
+					console.log(respuesta[0]);
+					
+					
+
+					
+					if(data[0].send == "si")
+					{
+						console.log('Entro');
+					}
 				},
 				error: function (xhr, textStatus, errorThrown) {
 					console.log('Error in Operation');

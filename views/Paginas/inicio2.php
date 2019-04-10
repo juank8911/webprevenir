@@ -9,16 +9,16 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/prevenir/banners/banner1.png" class="d-block w-100" alt="...">
+            <img src="images/prevenir/banners/bannerNuevo1.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images/prevenir/banners/banner2.png" class="d-block w-100" alt="...">
+            <img src="images/prevenir/banners/bannerNuevo2.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images/prevenir/banners/banner3.png" class="d-block w-100" alt="...">
+            <img src="images/prevenir/banners/bannerNuevo3.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images/prevenir/banners/banner4.png" class="d-block w-100" alt="...">
+            <img src="images/prevenir/banners/bannerNuevo4.png" class="d-block w-100" alt="...">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
