@@ -23,16 +23,16 @@ a:hover{
 }
 
 .tituloHorario{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #07A9DF;
 }
 
 .navPrimero{
-    padding:10px;
+    padding:1vw;
 }
 .navSegundo{
-    padding:10px;
+    padding:1vw;
     text-align: center;
 }
 
@@ -52,12 +52,12 @@ a:hover{
 .contenido{
 
     background-color: #f8f9fa;
-    padding: 50px;
+    padding: 2vw;
 }
 .contenidoBlanco{
 
     background-color: white;
-    padding: 50px;
+    padding: 2vw;
 }
 
 .cuadroDiscontinuo{
@@ -71,7 +71,7 @@ a:hover{
 .contenido2{
 
     background-color: #07A9DF;
-    padding: 50px 5px 50px 5px;
+    padding: 2vw;
 }
 
 .tituloPrincipal{
@@ -129,7 +129,7 @@ a:hover{
    text-align: center;
    font-size: 1,8vw;
    color: white;
-   padding: 50px;
+   padding: 2vw;
 }
 .recuadro2{
     background-color: #ffc107;
@@ -143,7 +143,7 @@ a:hover{
     font-weight: 500;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 960px) {
 .galery{
 display:none;
 }

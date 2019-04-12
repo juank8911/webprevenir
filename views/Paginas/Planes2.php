@@ -1,7 +1,7 @@
 <div class="row">
   
   <div class=col-md-12>
-    <img src="images/prevenir/familia.jpg" style="max-width: 100%; width: 100%;">
+    <img src="images/prevenir/familia.jpg" style="max-width: 100%;padding-top: 50px;  width: 100%;">
   </div>
 
 </div>

@@ -1,7 +1,7 @@
 <div class="row">
 	
 	<div class=col-md-12>
-		<img src="images/prevenir/familia.jpg" style="max-width: 100%; width: 100%;">
+		<img src="images/prevenir/familia.jpg" style="max-width: 100%; padding-top: 50px; width: 100%;">
 	</div>
 
 </div>
@@ -116,7 +116,7 @@
 			</form>
 		</div>
 		<div class="col-md-4">
-			<img src="images/prevenir/GifLíneasFunenrarias.gif" style="max-width: 100%; width: 50%; display: block; margin: auto;">	
+			<img src="images/prevenir/gifangel_2.gif" style="max-width: 100%; width: 100%; display: block; margin: auto;">	
 		</div>
 		<div class="col-md-1"></div>	
 	</div>

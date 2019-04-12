@@ -1,5 +1,6 @@
 
-<nav class="navbar fixed-top justify-content-center navbar-expand-lg navbar-light bg-light ">
+<nav class="navbar fixed-top justify-content-center navbar-expand-lg navbar-light bg-light" style="
+border-bottom: 4px solid #00aeef;">
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -10,19 +11,19 @@
     <div class="col-md-12">
       <div class="row">
 
-        <div class="col-md-2 navPrimero">
-         <img src="images/prevenir/logo.png" max-width="100%" width="300px" style="padding: 20px; display: block; margin: auto;" />
+        <div class="col-md-2 col-sm-2 navPrimero">
+         <img src="images/prevenir/logo.png" max-width="100%" width="100%" style="padding: 20px; display: block; margin: auto;" />
        </div>
-       <div class="col-md-7" style="    padding-top: 4vw;">
+       <div class="col-md-7 " style="    padding-top: 4vw;">
         <ul class="navbar-nav nav justify-content-center mr-auto">
           <li class="menu nav-item" >
-           <a href="#" class="menuItems active" onclick="cargaContenido('views/Paginas/inicio2.php');return false;">Inicio</a>
+           <a href="#" class="menuItems active cerrarMenu" onclick="cargaContenido('views/Paginas/inicio2.php');return false;">Inicio</a>
          </li>
          <li class="menu nav-item">
-          <a href="#" class="menuItems" onclick="cargaContenido('views/Paginas/Quienes-Somos2.php');return false;">Quienes Somos</a>
+          <a href="#" class="menuItems cerrarMenu" onclick="cargaContenido('views/Paginas/Quienes-Somos2.php');return false;">Quienes Somos</a>
         </li>
         <li class="menu nav-item">
-         <a href="#" class="menuItems" onclick="cargaContenido('views/Paginas/Planes2.php');return false;">
+         <a href="#" class="menuItems cerrarMenu" onclick="cargaContenido('views/Paginas/Planes2.php');return false;">
           Planes
         </a>
        <!--  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -33,14 +34,14 @@
         </div> -->
       </li>
       <li class="menu nav-item ">
-        <a href="#" class="menuItems" onclick="cargaContenido('views/Paginas/PQRS2.php');return false;">PQRS <span class="sr-only">(current)</span></a>
+        <a href="#" class="menuItems cerrarMenu" onclick="cargaContenido('views/Paginas/PQRS2.php');return false;">PQRS <span class="sr-only">(current)</span></a>
       </li>
       <li class="menu nav-item ">
-        <a href="#" class="menuItems" onclick="cargaContenido('views/Paginas/Terminos2.php');return false;">Términos y Condiciones <span class="sr-only">(current)</span></a>
+        <a href="#" class="menuItems cerrarMenu" onclick="cargaContenido('views/Paginas/Terminos2.php');return false;">Términos y Condiciones <span class="sr-only">(current)</span></a>
       </li>
     </ul></div>
-    <div class="col-md-3 navSegundo">
-      <div class="tituloHorario">Horario Oficinas Administrativas: </div><p style="text-align: center !important;">Lunes a Viernes 8am-12pm, 2pm-6pm / Sábados 8am-12pm</p>
+    <div class="col-md-3 col-sm-3 navSegundo">
+      <div class="tituloHorario">Horario Oficinas Administrativas: </div><p style="text-align: center !important; padding-bottom: 0px !important;">Lun a Vier. 8am-12pm, 2pm-6pm / Sáb. 8am-12pm</p>
       <div class="">ATENCIÓN AL CLIENTE </div>
       <a class="pr" href="callto:#"><div class="tituloHorario">(032) 7290038 - +57-3104351937</div></a>
     </div>
@@ -56,6 +57,14 @@
 
 <script type="text/javascript">
 
+    $(document).ready(function(){
+  $(".cerrarMenu").click(function () {
+    console.log("CerrarMenu");
+      $('.navbar-toggler').click();
+  });
+});
+
+
   $(function() {
 
   // elementos de la lista
@@ -70,10 +79,14 @@
      $(this).addClass("active");
    });
 
+
+
 });
 </script>
 <style type="text/css">
   .active {
     color:#ffc705;
   }
+
+
 </style>
