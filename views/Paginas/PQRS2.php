@@ -1,3 +1,6 @@
+<!-- <script src='js/bootstrap-validate.js'></script> -->
+
+
 <div class="row">
 	
 	<div class=col-md-12>
@@ -56,22 +59,22 @@
 			<h1 class="Subtitulo ">Envíanos tus comentarios</h1>
 			<br/>
 			<form id="form1" data-toggle="validator" role="form">
-				<div class="form-group">
+				<div class="formorm-group">
 					<label for="name">Nombre Completo</label>
-					<input type="text" class="form-control" name="name" id="name" required>
+					<input type="text" class="form-control" name="name" id="name" >
 					<span class="help-block"> </span>
 				</div>
 				<div class="form-group">
 					<label for="identification">Cédula</label>
-					<input type="text" class="form-control" name="identification" id="identification" required>
+					<input type="text" class="form-control" name="identification" id="identification" >
 				</div>
 				<div class="form-group">
 					<label for="email">Correo Electrónico:</label>
-					<input type="email" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="mail" id="mail" required>
+					<input id="mail" type="email" class="form-control" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,4}$" name="mail">
 				</div>
 				<div class="form-group">
 					<label for="tel">Teléfono:</label>
-					<input type="number" class="form-control" pattern="[0-9]*" name="tel" id="tel" required>
+					<input type="number" class="form-control" pattern="[0-9]*" name="tel" id="tel" >
 				</div>
 
 				<div class="row">
@@ -79,14 +82,14 @@
 					<div class="col-md-6">	
 						<div class="form-group">
 							<label for="Depa">Departamento:</label>
-							<input type="text" class="form-control" name="Depa" id="Depa" required>
+							<input type="text" class="form-control" name="Depa" id="Depa" >
 
 						</div>
 					</div>
 					<div class="col-md-6">	
 						<div class="form-group ">
 							<label for="Mun">Municipio:</label>
-							<input type="text" class="form-control" name="Mun" id="Mun" required>
+							<input type="text" class="form-control" name="Mun" id="Mun" >
 
 						</div>
 					</div>
@@ -96,7 +99,7 @@
 					<div class="col-md-12">	
 						<div class="form-group">
 							<label for="asunto">Asunto:</label>
-							<input type="text" class="form-control" name="asunto" id="asunto" required></textarea>
+							<input type="text" class="form-control" name="asunto" id="asunto" ></textarea>
 
 						</div>
 					</div>
@@ -105,7 +108,7 @@
 					<div class="col-md-12">	
 						<div class="form-group">
 							<label for="mensaje">Mensaje:</label>
-							<textarea class="form-control" name="mensaje" id="mensaje" required></textarea>
+							<textarea class="form-control" name="mensaje" id="mensaje" ></textarea>
 
 						</div>
 					</div>
@@ -136,7 +139,17 @@
 </script>
  -->
 
+ <!-- <script type="text/javascript">
+ 	
+bootstrapValidate('#mail', 'email:Enter a valid E-Mail!');
+
+ </script>
+ -->
+
 <script>
+
+
+
 	$(document).ready(function () {
 		$("#Save").click(function () {
 			var mail = new Object();
@@ -157,11 +170,11 @@
 			// {
 			// 	return false;
 			// }
-			alert(valor);
+			
 			console.log(mail);
 
 			$.ajax({
-				url: 'http://cdn.prevenirexpress.com:3000/emails',
+				url: 'http://192.168.2.108:3300/emails',
 				type: 'POST',
 				dataType: 'json',
 				data: JSON.stringify(mail),
@@ -179,10 +192,12 @@
 					if(data[0].send == "si")
 					{
 						console.log('Entro');
+						alert("Sus datos fueron enviados exitosamente"); 
 					}
 				},
 				error: function (xhr, textStatus, errorThrown) {
 					console.log('Error in Operation');
+					alert("Existen errores");
 				}
 			});
 		});

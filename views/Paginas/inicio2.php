@@ -1,14 +1,21 @@
 <link rel="stylesheet" href="./css/galeria.css">
 
-<div class="row" style="padding-top: 100px">
+
+
+<div class="row" style="padding-top: 70px">
   <div class="col-md-12">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/prevenir/banners/bannerNuevo1.png" class="d-block w-100" alt="...">
-          <button type="button" class="btn btn-primary" style="    margin: auto;
-          display: block;
-        }" data-toggle="modal" data-target="#exampleModalCenter">
+       <div class="carousel-item active">
+        <img src="images/prevenir/banners/BannerPrincipal_Prevenir.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/prevenir/banners/bannerNuevo1.png" class="d-block w-100" alt="...">
+        <br/>
+        <button type="button" class="btn btn-primary" style=" background-color: #00aeef;
+        border-color: #00aeef;
+        font-size: 22px;   margin: auto;
+        display: block;" data-toggle="modal" data-target="#exampleModalCenter">
         Conoce más
       </button>
     </div>
@@ -18,26 +25,28 @@
     </div>
     <div class="carousel-item">
       <img src="images/prevenir/banners/bannerNuevo3.png" class="d-block w-100" alt="...">
-      <button type="button" class="btn btn-primary" style="    margin: auto;
-      display: block;
-    }" data-toggle="modal" data-target="#exampleModalCenter">
-    Conoce más
-  </button>
-</div>
-<div class="carousel-item">
-  <img src="images/prevenir/banners/bannerNuevo4.png" class="d-block w-100" alt="...">
-</div>
-<div class="carousel-item">
-  <img src="images/prevenir/banners/bannerNuevo5.png" class="d-block w-100" alt="...">
-</div>
+      <br/>
+      <button type="button" class="btn btn-primary" style=" background-color: #00aeef;
+      border-color: #00aeef;
+      font-size: 22px;   margin: auto;
+      display: block;" data-toggle="modal" data-target="#exampleModalCenter">
+      Conoce más
+    </button>
+  </div>
+  <div class="carousel-item">
+    <img src="images/prevenir/banners/bannerNuevo4.png" class="d-block w-100" alt="...">
+  </div>
+  <div class="carousel-item">
+    <img src="images/prevenir/banners/bannerNuevo5.png" class="d-block w-100" alt="...">
+  </div>
 </div>
 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
   <span class="sr-only">Previous</span>
 </a>
 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  <span class="sr-only">Next</span>
+  <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+  <span class="sr-only" >Next</span>
 </a>
 
 </div>
@@ -89,7 +98,7 @@
       <br/>
       <div class="col-md-5 col-sm-12"> 
         <h4>MISIÓN</h4>
-        <p>Conscientes del valor supremo de las personas y con nuestra calidad de buen servicio, nuestros clientes nos entregan su confianza para cuando llegue el día de la pérdida de un ser querido</p>
+        <p>Siempre ser conscientes del valor supremo de las personas y gracias a la confianza de nuestro clientes les entregamos calidad y un excelente servicio cuando llegue el día de la pérdida de un ser querido</p>
       </div>
       <div class="col-md-5 col-sm-12"> 
         <h4> VISIÓN</h4>
@@ -227,20 +236,20 @@
       <?php include 'galeria.php';?>
       <div id="wrapper">
         <div id="image" class="galery">
-          <div class="image i1"><img style="width: 100%" src="./img/1.jpeg"></div>
-          <div class="image i2"><img style="width: 100%" src="./img/2.jpeg"></div>
-          <div class="image i3"><img style="width: 100%" src="./img/2.jpeg"></div>
-          <div class="image i4"><img style="width: 100%" src="./img/4.jpeg"></div>
-          <div class="image i5"><img style="width: 100%" src="./img/5.jpeg"></div>
-          <div class="image i6"><img style="width: 100%" src="./img/4.jpeg"></div>
-          <div class="image i7"><img style="width: 100%" src="./img/5.jpeg"></div>
-          <div class="image i8"><img style="width: 100%" src="./img/5.jpeg"></div>
+          <div class="image i1"><img style="width: 100%" src="./img/prevenirInfo1.png"></div>
+          <div class="image i2"> <img style="width: 100%" src="./img/prevenirInfo2.png">></div>
+          <div class="image i3"> <img style="width: 100%" src="./img/prevenirInfo3.png"></div>
+          <div class="image i4"><img style="width: 100%" src="./img/prevenirInfo4.png"></div>
+          <div class="image i5"><img style="width: 100%" src="./img/prevenirInfo5.png"></div>
+          <div class="image i6"><img style="width: 100%" src="./img/prevenirInfo6.png"></div>
+          <div class="image i7"><img style="width: 100%" src="./img/prevenirInfo7.png"></div>
+          <div class="image i8"><img style="width: 100%" src="./img/prevenirInfo8.png"></div>
         </div>
 
       </div>
     </div>
 
-  
+
   </div>
 
 </div>
@@ -252,4 +261,6 @@
 </div>
 
 </div> 
+
+
 

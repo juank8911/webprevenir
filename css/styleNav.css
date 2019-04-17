@@ -29,7 +29,7 @@ a:hover{
 }
 
 .navPrimero{
-    padding:1vw;
+    /*padding:1vw;*/
 }
 .navSegundo{
     padding:1vw;
@@ -148,4 +148,39 @@ a:hover{
 display:none;
 }
 }
+
+.botonFlotante{
+    width:80px;
+  height:80px;
+    right:0;
+  bottom:0;
+  position:absolute;
+  border:none;
+  outline:none;
+  background: transparent;
+}
+
+
+.botonF1{
+  width:80px;
+  height:80px;
+  border-radius:100%;
+  background:#07b0ef;
+  right:0;
+  bottom:0;
+  position:absolute;
+  /*margin-right:16px;
+  margin-bottom:16px;*/
+  border:none;
+  outline:none;
+  color:#FFF;
+  font-size:36px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+ /* transition:.3s;  */
+}
+/*span{
+  transition:.5s;  
+}*/
+
+
 
