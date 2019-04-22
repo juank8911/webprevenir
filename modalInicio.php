@@ -7,7 +7,7 @@
             <!--            <h4 class="modal-title">Emergencias 24H</h4>-->
         </div>
         <div class="modal-body">
-            <h3 class="text-center">Horario SEMANA SANTA Oficinas Administrativas</h3>
+           <!--  <h3 class="text-center">Horario SEMANA SANTA Oficinas Administrativas</h3>
             <table class="table table-striped">
               <thead>
                 <tr>
@@ -32,7 +32,7 @@
           </tr>
           
       </tbody>
-  </table>
+  </table> -->
   <h3 class="text-center">Líneas de Atención Disponible 24 Horas</h3>
   <img src="images/prevenir/gifangel_2.gif" width="100%" style="margin: auto;display: block;" />
 </div>

@@ -167,7 +167,7 @@
 
        </div>
        <div class="col-md-5">
-        <img src="images/prevenir/familia_Numerosa.jpg" style="max-width: 100%; width: 800px; display: block;margin: auto;" >
+        <img src="images/prevenir/familiaNumerosa.jpg" style="max-width: 100%; width: 800px; display: block;margin: auto;" >
       </div> 
 
       <div class="col-md-1"></div>
@@ -308,7 +308,7 @@ Valor mensual $ 9.990 por grupo familiar básico </h5>
 
        </div>
        <div class="col-md-5">
-        <img src="images/prevenir/trabajadores.jpg" style="max-width: 100%; width: 800px; display: block;margin: auto;" >
+        <img src="images/prevenir/trabajadores.png" style="max-width: 100%; width: 800px; display: block;margin: auto;" >
       </div> 
 
       <div class="col-md-1"></div>

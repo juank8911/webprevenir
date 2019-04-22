@@ -131,7 +131,7 @@
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-5">
-          <img src="images/prevenir/cofre.jpg" width="100%">
+          <img src="images/prevenir/cofre.png" width="100%">
         </div>
         
         <div class="col-md-6">
@@ -153,7 +153,7 @@
     <div class="row">
      <div class="col-md-1"></div>
      <div class="col-md-5">
-       <img src="images/prevenir/cruz.jpg" width="100%">
+       <img src="images/prevenir/cruz.png" width="100%">
      </div>
 
      <div class="col-md-6">
@@ -179,7 +179,7 @@
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-5">
-     <img src="images/prevenir/cementerio.jpg" width="100%">
+     <img src="images/prevenir/cementerio.png" width="100%">
    </div>
 
    <div class="col-md-6">

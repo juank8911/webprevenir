@@ -49,7 +49,7 @@ border-bottom: 4px solid #00aeef;">
     <div class="col-md-3 col-sm-3 navSegundo">
       <!-- <div class="tituloHorario">Horario Oficinas Administrativas: </div><p style="text-align: center !important; padding-bottom: 0px !important;">Lun a Vier. 8am-12pm, 2pm-6pm / Sáb. 8am-12pm</p> -->
       <div class="">ATENCIÓN AL CLIENTE </div>
-      <a class="pr" href="callto:#"><div class="tituloHorario">(032) 7290038 - +57-3104351937</div></a>
+      <a class="pr" href="callto:(+57)3104351937"><div class="tituloHorario">(032) 7290038 - +57-3104351937</div></a>
     </div>
 
   </div>
