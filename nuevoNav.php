@@ -40,7 +40,7 @@ border-bottom: 4px solid #00aeef;">
         <a href="#" class="menuItems cerrarMenu" onclick="cargaContenido('views/Paginas/Obituario.php');return false;">Obituario <span class="sr-only">(current)</span></a>
       </li>
       <li class="menu nav-item ">
-        <a href="#" class="menuItems cerrarMenu" onclick="cargaContenido('views/Paginas/PQRS2.php');return false;">PQRS <span class="sr-only">(current)</span></a>
+        <a href="#" class="menuItems cerrarMenu" onclick="cargaContenido('views/Paginas/PQRS2.php');return false;">Contáctenos <span class="sr-only">(current)</span></a>
       </li>
       <li class="menu nav-item ">
         <a href="#" class="menuItems cerrarMenu" onclick="cargaContenido('views/Paginas/Terminos2.php');return false;">Términos y Condiciones <span class="sr-only">(current)</span></a>
@@ -49,7 +49,8 @@ border-bottom: 4px solid #00aeef;">
     <div class="col-md-3 col-sm-3 navSegundo">
       <!-- <div class="tituloHorario">Horario Oficinas Administrativas: </div><p style="text-align: center !important; padding-bottom: 0px !important;">Lun a Vier. 8am-12pm, 2pm-6pm / Sáb. 8am-12pm</p> -->
       <div class="">ATENCIÓN AL CLIENTE </div>
-      <a class="pr" href="callto:(+57)3104351937"><div class="tituloHorario">(032) 7290038 - +57-3104351937</div></a>
+      <div class="tituloHorario"><a class="pr" href="callto:(032)7290038">(032)7290038</a> - <a class="pr" href="callto:(+57)3104351937">+57-3104351937</a></div>
+       <a href="https://api.whatsapp.com/send?phone=573104351937&text=Hola!%20quiero%20saber%20más%20de%20Prevenir%20Express!"><img src="./images/prevenir/WhatsappPrevenir.png" style="margin: auto; display: block;"></a>
     </div>
 
   </div>

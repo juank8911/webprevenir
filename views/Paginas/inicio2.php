@@ -214,9 +214,9 @@
   <div class="col-md-12">
 
     <div class="container-fluid" style="background-color: #07b0ef; color: white; padding: 5vw">
-      <p class="text-justify">* Carencias: aplican para todos los planes </p>
-      <p class="text-justify">Es el tiempo que el servicio no está activo. “el objetivo del periodo de carencia es controlar la malversación y evitar que un cliente que haya sido diagnosticado previamente con alguna condición médica o enfermedad, contrate un servicio de previsión Exequial con el objeto de acceder de manera INMEDIATA al servicio”</p>
-      <p class="text-justify"> * 72 horas para muerte accidental <br/>
+      <p class="text-center">* Carencias: aplican para todos los planes </p>
+      <p class="text-center">Es el tiempo que el servicio no está activo. “el objetivo del periodo de carencia es controlar la malversación y evitar que un cliente que haya sido diagnosticado previamente con alguna condición médica o enfermedad, contrate un servicio de previsión Exequial con el objeto de acceder de manera INMEDIATA al servicio”</p>
+      <p class="text-center"> * 72 horas para muerte accidental <br/>
         * 60 días para muerte natural <br/>
         * 180 días para enfermedades pre-existentes.<br/>
       </p>

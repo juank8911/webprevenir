@@ -13,7 +13,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #1ab188;
+  color: #00aeef !important;
   -webkit-transition: .5s ease;
   transition: .5s ease;
 }

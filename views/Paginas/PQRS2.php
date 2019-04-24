@@ -14,7 +14,7 @@
 	<div class="row"> 
 		<div class=col-md-1></div>
 		<div class="col-md-10"> 
-			<h2 class="text-center tituloPrincipal">PQRS</h2>
+			<h2 class="text-center tituloPrincipal">Contáctenos y PQRSF</h2>
 		</div>
 		<div class=col-md-1></div>
 	</div>
@@ -59,7 +59,7 @@
 			<h1 class="Subtitulo ">Envíanos tus comentarios</h1>
 			<br/>
 			<form id="form1" data-toggle="validator" role="form">
-				<div class="formorm-group">
+				<div class="form-group">
 					<label for="name">Nombre Completo</label>
 					<input type="text" class="form-control" name="name" id="name" >
 					<span class="help-block"> </span>

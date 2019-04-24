@@ -99,11 +99,11 @@ if(!isset($_COOKIE["mostrarModal"]))
 
   <!-- /Footer -->
 
-<div class="contenedor">
+<!-- <div class="contenedor">
   <button class="botonFlotante">
    <a href="https://api.whatsapp.com/send?phone=573104351937&text=Hola!%20quiero%20saber%20más%20de%20Prevenir%20Express!"><img src="./images/prevenir/WhatsappPrevenir.png" style="margin: auto; display: block;"></a>
 
-</div>
+</div> -->
 </body>
 </html>
 

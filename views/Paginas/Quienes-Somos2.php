@@ -38,12 +38,19 @@
 
 	<div class="row"> 
 		<div class=col-md-1></div>
-		<div class="col-md-5"> 
-			<h2 class="text-center tituloPrincipal"> CLIENTES ALIADOS.</h2>
+		<div class="col-md-10"> 
+			<h2 class=" tituloPrincipal"> CLIENTES ALIADOS.</h2>
 			<p>Gracias a nuestras alianzas son más de 46.000 usuarios vinculados por libranza que tienen calidad en Nuestros Servicios: Gracias a los convenios de Libranza con Secretarias De Educacion, Gobernaciones, Alcaldías, Asociaciones Fondos De Empleados “Fopep”.  “Entidades Públicas Y Privadas”</p>
 
 		</div>
-		<div class="col-md-5"> 
+
+		<div class=col-md-1></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+
 			<h2 class="text-center tituloPrincipal"> POR QUÉ NOS PREFIEREN:</h2>
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
@@ -85,13 +92,6 @@
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
-		</div>
-		<div class=col-md-1></div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-10">
 
 		</div>
 		<div class="col-md-1"></div>
