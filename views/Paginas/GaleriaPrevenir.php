@@ -1,299 +1,192 @@
-<div class="container" style="padding-top: 200px">
-  <div class="row">
+<div class="row">
+  
+  <div class=col-md-12>
+    <img src="images/prevenir/familia.jpg" style="max-width: 100%; padding-top: 50px; width: 100%;">
+  </div>
 
+</div>
+
+
+<div class="contenido">
+
+
+<div class="row"> 
+    <div class=col-md-1></div>
+    <div class="col-md-10"> 
+      <h2 class="text-center tituloPrincipal">Galería</h2>
+    </div>
+    <div class=col-md-1></div>
+  </div>
     <!-- Grid column -->
-    <div class="col-lg-4 col-md-12 mb-4">
+    <div class="col-md-12 d-flex justify-content-center mb-5">
 
-      <!--Modal: Name-->
-      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all">Todos</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1">Publicidad</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2">Servicios Funerarios</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="3">Eventos</button>
 
-          <!--Content-->
-          <div class="modal-content">
+    </div>
+    <!-- Grid column -->
 
-            <!--Body-->
-            <div class="modal-body mb-0 p-0">
+  </div>
 
-              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A3PDXmYoF5U"
-                allowfullscreen></iframe>
-              </div>
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10">
+      <div class="gallery" id="gallery">
 
-            </div>
-
-            <!--Footer-->
-            <div class="modal-footer justify-content-center">
-              <span class="mr-4">Spread the word!</span>
-              <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
-              <!--Twitter-->
-              <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-              <!--Google +-->
-              <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
-              <!--Linkedin-->
-              <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
-
-              <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
-
-            </div>
-
-          </div>
-          <!--/.Content-->
-
-        </div>
-      </div>
-      <!--Modal: Name-->
-
-      <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-1.jpg" alt="video"
-        data-toggle="modal" data-target="#modal1"></a>
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-lg-4 col-md-6 mb-4">
-
-        <!--Modal: Name-->
-        <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg" role="document">
-
-            <!--Content-->
-            <div class="modal-content">
-
-              <!--Body-->
-              <div class="modal-body mb-0 p-0">
-
-                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
-                  allowfullscreen></iframe>
-                </div>
-
-              </div>
-
-              <!--Footer-->
-              <div class="modal-footer justify-content-center">
-                <span class="mr-4">Spread the word!</span>
-                <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
-                <!--Twitter-->
-                <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                <!--Google +-->
-                <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
-                <!--Linkedin-->
-                <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
-
-                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
-
-              </div>
-
-            </div>
-            <!--/.Content-->
-
-          </div>
-        </div>
-        <!--Modal: Name-->
-
-        <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-2.jpg" alt="video"
-          data-toggle="modal" data-target="#modal6"></a>
-
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 1">
+          <img class="img-fluid" src="./img/galeria/1.jpeg" alt="PrevenirPublicidad">
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-4">
-
-          <!--Modal: Name-->
-          <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-
-              <!--Content-->
-              <div class="modal-content">
-
-                <!--Body-->
-                <div class="modal-body mb-0 p-0">
-
-                  <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
-                    allowfullscreen></iframe>
-                  </div>
-
-                </div>
-
-                <!--Footer-->
-                <div class="modal-footer justify-content-center">
-                  <span class="mr-4">Spread the word!</span>
-                  <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
-                  <!--Twitter-->
-                  <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                  <!--Google +-->
-                  <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
-                  <!--Linkedin-->
-                  <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
-
-                  <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
-
-                </div>
-
-              </div>
-              <!--/.Content-->
-
-            </div>
-          </div>
-          <!--Modal: Name-->
-
-          <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-3.jpg" alt="video"
-            data-toggle="modal" data-target="#modal4"></a>
-
-          </div>
-          <!-- Grid column -->
-
+        <div class="mb-3 pics animation all 1">
+          <img class="img-fluid" src="./img/galeria/2.jpeg" alt="PrevenirPublicidad">
         </div>
-        <!-- Grid row -->
+        <!-- Grid column -->
 
-        <!-- Grid row -->
-        <div class="row">
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 1">
+         <img class="img-fluid" src="./img/galeria/3.jpeg" alt="PrevenirPublicidad">
+        </div>
+        <!-- Grid column -->
 
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-12 mb-4">
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 1">
+          <img class="img-fluid" src="./img/galeria/4.jpeg" alt="PrevenirPublicidad">
+        </div>
+        <!-- Grid column -->
 
-            <!--Modal: Name-->
-            <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg" role="document">
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 1">
+         <img class="img-fluid" src="./img/galeria/5.jpeg" alt="PrevenirPublicidad">
+        </div>
+        <!-- Grid column -->
 
-                <!--Content-->
-                <div class="modal-content">
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2">
+         <img class="img-fluid" src="./img/galeria/6.jpeg" alt="PrevenirPublicidad">
+        </div>
 
-                  <!--Body-->
-                  <div class="modal-body mb-0 p-0">
 
-                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GUEZCxBcM78"
-                      allowfullscreen></iframe>
-                    </div>
+         <div class="mb-3 pics animation all 2">
+         <img class="img-fluid" src="./img/galeria/7.jpeg" alt="PrevenirPublicidad">
+        </div>
 
-                  </div>
+         <div class="mb-3 pics animation all 2">
+         <img class="img-fluid" src="./img/galeria/8.jpeg" alt="PrevenirPublicidad">
+        </div>
 
-                  <!--Footer-->
-                  <div class="modal-footer justify-content-center">
-                    <span class="mr-4">Spread the word!</span>
-                    <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
-                    <!--Twitter-->
-                    <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                    <!--Google +-->
-                    <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
-                    <!--Linkedin-->
-                    <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
 
-                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+       <div class="mb-3 pics animation all 2">
+         <img class="img-fluid" src="./img/galeria/9.jpeg" alt="PrevenirPublicidad">
+        </div>
 
-                  </div>
+         <div class="mb-3 pics animation all 2">
+         <img class="img-fluid" src="./img/galeria/10.jpeg" alt="PrevenirPublicidad">
+        </div>
 
-                </div>
-                <!--/.Content-->
+         <div class="mb-3 pics animation all 2">
+         <img class="img-fluid" src="./img/galeria/11.jpeg" alt="PrevenirPublicidad">
+        </div>
 
-              </div>
-            </div>
-            <!--Modal: Name-->
+         <div class="mb-3 pics animation all 2">
+         <img class="img-fluid" src="./img/galeria/12.jpeg" alt="PrevenirPublicidad">
+        </div>
 
-            <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-4.jpg" alt="video"
-              data-toggle="modal" data-target="#modal2"></a>
+         <div class="mb-3 pics animation all 2">
+         <img class="img-fluid" src="./img/galeria/13.jpeg" alt="PrevenirPublicidad">
+        </div>
 
-            </div>
-            <!-- Grid column -->
+         <div class="mb-3 pics animation all 2">
+         <img class="img-fluid" src="./img/galeria/14.jpeg" alt="PrevenirPublicidad">
+        </div>
 
-            <!-- Grid column -->
-            <div class="col-lg-4 col-md-6 mb-4">
+         <div class="mb-3 pics animation all 3">
+         <img class="img-fluid" src="./img/galeria/15.jpeg" alt="PrevenirPublicidad">
+        </div>
 
-              <!--Modal: Name-->
-              <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
+         <div class="mb-3 pics animation all 3">
+         <img class="img-fluid" src="./img/galeria/16.jpeg" alt="PrevenirPublicidad">
+        </div>
 
-                  <!--Content-->
-                  <div class="modal-content">
+         <div class="mb-3 pics animation all 3">
+         <img class="img-fluid" src="./img/galeria/17.jpeg" alt="PrevenirPublicidad">
+        </div>
 
-                    <!--Body-->
-                    <div class="modal-body mb-0 p-0">
+        <div class="mb-3 pics animation all 3">
+         <img class="img-fluid" src="./img/galeria/18.jpeg" alt="PrevenirPublicidad">
+        </div>
 
-                      <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PjGkVCAo8Fw"
-                        allowfullscreen></iframe>
-                      </div>
+        <!-- Grid column -->
 
-                    </div>
+      </div>
+      <!-- Grid row -->
+    </div>
+  </div>
+  <div class="col-md-1">
+  </div>
+</div>
+<!-- Grid row -->
 
-                    <!--Footer-->
-                    <div class="modal-footer justify-content-center">
-                      <span class="mr-4">Spread the word!</span>
-                      <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
-                      <!--Twitter-->
-                      <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                      <!--Google +-->
-                      <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
-                      <!--Linkedin-->
-                      <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+<!-- Grid row -->
 
-                      <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
 
-                    </div>
 
-                  </div>
-                  <!--/.Content-->
 
-                </div>
-              </div>
-              <!--Modal: Name-->
 
-              <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-5.jpg" alt="video"
-                data-toggle="modal" data-target="#modal5"></a>
 
-              </div>
-              <!-- Grid column -->
+<style>
+  .gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+      -webkit-transition: all 350ms ease;
+      transition: all 350ms ease; }
+      .gallery .animation {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1); }
 
-              <!-- Grid column -->
-              <div class="col-lg-4 col-md-6 mb-4">
+        @media (max-width: 450px) {
+          .gallery {
+            -webkit-column-count: 1;
+            -moz-column-count: 1;
+            column-count: 1;
+            -webkit-column-width: 100%;
+            -moz-column-width: 100%;
+            column-width: 100%;
+          }
+        }
 
-                <!--Modal: Name-->
-                <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
+        @media (max-width: 400px) {
+          .btn.filter {
+            padding-left: 1.1rem;
+            padding-right: 1.1rem;
+          }
+        }
+        Lightbox gallery 
 
-                    <!--Content-->
-                    <div class="modal-content">
+      </style>
 
-                      <!--Body-->
-                      <div class="modal-body mb-0 p-0">
-
-                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gsNY7TV4r1M"
-                          allowfullscreen></iframe>
-                        </div>
-
-                      </div>
-
-                      <!--Footer-->
-                      <div class="modal-footer d-block d-md-flex justify-content-center">
-                        <span class="mr-4">Spread the word!</span>
-                        <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
-                        <!--Twitter-->
-                        <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                        <!--Google +-->
-                        <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
-                        <!--Linkedin-->
-                        <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
-
-                        <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
-
-                      </div>
-
-                    </div>
-                    <!--/.Content-->
-
-                  </div>
-                </div>
-                <!--Modal: Name-->
-
-                <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-6.jpg" alt="video"
-                  data-toggle="modal" data-target="#modal3"></a>
-
-                </div>
-                <!-- Grid column -->
-
-              </div>
-            </div>
+      <script type="text/javascript">
+        $(function() {
+          var selectedClass = "";
+          $(".filter").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#gallery").fadeTo(100, 0.1);
+            $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn().addClass('animation');
+              $("#gallery").fadeTo(300, 1);
+            }, 300);
+          });
+        });
+      </script>

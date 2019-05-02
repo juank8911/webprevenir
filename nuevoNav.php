@@ -50,7 +50,7 @@ border-bottom: 4px solid #00aeef;">
       <!-- <div class="tituloHorario">Horario Oficinas Administrativas: </div><p style="text-align: center !important; padding-bottom: 0px !important;">Lun a Vier. 8am-12pm, 2pm-6pm / Sáb. 8am-12pm</p> -->
       <div class="">ATENCIÓN AL CLIENTE </div>
       <div class="tituloHorario"><a class="pr" href="callto:(032)7290038">(032)7290038</a> - <a class="pr" href="callto:(+57)3104351937">+57-3104351937</a></div>
-       <a href="https://api.whatsapp.com/send?phone=573104351937&text=Hola!%20quiero%20saber%20más%20de%20Prevenir%20Express!"><img src="./images/prevenir/WhatsappPrevenir.png" style="margin: auto; display: block;"></a>
+       <div class="flotanteCompu"><a href="https://api.whatsapp.com/send?phone=573104351937&text=Hola!%20quiero%20saber%20más%20de%20Prevenir%20Express!"><img src="./images/prevenir/WhatsappPrevenir.png" style="margin: auto; display: block;"></a></div>
     </div>
 
   </div>

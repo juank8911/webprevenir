@@ -144,10 +144,19 @@ a:hover{
 }
 
 @media screen and (max-width: 960px) {
-.galery{
+.galery , .flotanteCompu{
 display:none;
 }
 }
+
+
+@media screen and (min-width: 960px) {
+.flotanteCircle{
+display:none;
+}
+}
+
+
 
 .botonFlotante{
     width:80px;
