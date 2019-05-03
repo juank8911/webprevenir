@@ -18,16 +18,30 @@
     <div class=col-md-1></div>
   </div>
     <!-- Grid column -->
-    <div class="col-md-12 d-flex justify-content-center mb-5">
 
-      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all">Todos</button>
-      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1">Publicidad</button>
-      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2">Servicios Funerarios</button>
-      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="3">Eventos</button>
+    <div class="row">
+      <div class="col-md-1"></div>
+    <div class="col-md-10 d-flex justify-content-center sm-5" style="text-align: center;"> 
+
+      <div class="row">
+        <div class="col-md-3">
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all">Todos</button>
+        </div>
+        <div class="col-md-3">
+           <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1">Información</button>
+         </div>
+        <div class="col-md-3">
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2">Servicios Funerarios</button>
+        </div>
+        <div class="col-md-3">
+           <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="3">Eventos</button>
+        </div>
+
+      </div>
 
     </div>
-    <!-- Grid column -->
-
+      <div class="col-md-1"></div>
+</div>
   </div>
 
   <div class="row">
