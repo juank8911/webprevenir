@@ -38,7 +38,7 @@
 
         <!-- Grid column -->
         <div class="mb-3 pics animation all 1">
-          <img class="img-fluid" src="./img/Obituarios/Obituario1.jpg" alt="PrevenirPublicidad">
+          <img class="img-fluid" src="./img/Obituarios/Obituario1.jpg" alt="Prevenir Express Obituarios">
         </div>
         <!-- Grid column -->
 

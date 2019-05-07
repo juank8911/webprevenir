@@ -119,7 +119,7 @@
 			</form>
 		</div>
 		<div class="col-md-4">
-			<img src="images/prevenir/gifangel_2.gif" style="max-width: 100%; width: 100%; display: block; margin: auto;">	
+			<img src="images/prevenir/gifangel_2.gif" alt="Prevenir Express lineas de emergencia funeraria" style="max-width: 100%; width: 100%; display: block; margin: auto;">	
 		</div>
 		<div class="col-md-1"></div>	
 	</div>

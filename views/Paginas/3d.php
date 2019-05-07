@@ -3,11 +3,11 @@
   <h3>(hover over to pause)</h3>
   <div id="wrapper">
     <div id="image">
-      <div class="image i1"><img style="width: 100%" src="../../img/1.jpeg"></div>
-      <div class="image i2"><img style="width: 100%" src="../../img/2.jpeg"></div>
-      <div class="image i3"><img style="width: 100%" src="../../img/3.jpeg"></div>
-      <div class="image i4"><img style="width: 100%" src="../../img/4.jpeg"></div>
-      <div class="image i5"><img style="width: 100%" src="../../img/5.jpeg"></div>
+      <div class="image i1"><img style="width: 100%" src="../../img/1.jpeg" alt="Prevenir Express Oficinas"></div>
+      <div class="image i2"><img style="width: 100%" src="../../img/2.jpeg" alt="Prevenir Express Oficinas"></div>
+      <div class="image i3"><img style="width: 100%" src="../../img/3.jpeg" alt="Prevenir Express Instalaciones"></div>
+      <div class="image i4"><img style="width: 100%" src="../../img/4.jpeg" alt="Prevenir Express Lineas de emergencia funeraria"></div>
+      <div class="image i5"><img style="width: 100%" src="../../img/5.jpeg" alt="Prevenir Express Lineas de emergencia funeraria"></div>
    
     </div>
   </div>

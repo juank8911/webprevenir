@@ -52,87 +52,87 @@
 
         <!-- Grid column -->
         <div class="mb-3 pics animation all 1">
-          <img class="img-fluid" src="./img/galeria/1.jpeg" alt="PrevenirPublicidad">
+          <img class="img-fluid" src="./img/galeria/1.jpeg" alt="Prevenir Express Previsión Excequial">
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
         <div class="mb-3 pics animation all 1">
-          <img class="img-fluid" src="./img/galeria/2.jpeg" alt="PrevenirPublicidad">
+          <img class="img-fluid" src="./img/galeria/2.jpeg" alt="Prevenir Express Lineas de emergencia funeraria">
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
         <div class="mb-3 pics animation all 1">
-         <img class="img-fluid" src="./img/galeria/3.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/3.jpeg" alt="Prevenir Express Ayuda">
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
         <div class="mb-3 pics animation all 1">
-          <img class="img-fluid" src="./img/galeria/4.jpeg" alt="PrevenirPublicidad">
+          <img class="img-fluid" src="./img/galeria/4.jpeg" alt="Prevenir Express Salas de Velación">
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
         <div class="mb-3 pics animation all 1">
-         <img class="img-fluid" src="./img/galeria/5.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/5.jpeg" alt="Prevenir Express Salas de Velación">
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
         <div class="mb-3 pics animation all 2">
-         <img class="img-fluid" src="./img/galeria/6.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/6.jpeg" alt="Prevenir Express Salas de Velación">
         </div>
 
 
          <div class="mb-3 pics animation all 2">
-         <img class="img-fluid" src="./img/galeria/7.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/7.jpeg" alt="Prevenir Express Salas de Velación">
         </div>
 
          <div class="mb-3 pics animation all 2">
-         <img class="img-fluid" src="./img/galeria/8.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/8.jpeg" alt="Prevenir Express Salas de Velación">
         </div>
 
 
        <div class="mb-3 pics animation all 2">
-         <img class="img-fluid" src="./img/galeria/9.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/9.jpeg" alt="Prevenir Express Entierro">
         </div>
 
          <div class="mb-3 pics animation all 2">
-         <img class="img-fluid" src="./img/galeria/10.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/10.jpeg" alt="Prevenir Express Salas de Velación">
         </div>
 
          <div class="mb-3 pics animation all 2">
-         <img class="img-fluid" src="./img/galeria/11.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/11.jpeg" alt="Prevenir Express Salas de Velación">
         </div>
 
          <div class="mb-3 pics animation all 2">
-         <img class="img-fluid" src="./img/galeria/12.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/12.jpeg" alt="Prevenir Express Salas de Velación">
         </div>
 
          <div class="mb-3 pics animation all 2">
-         <img class="img-fluid" src="./img/galeria/13.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/13.jpeg" alt="Prevenir Express Salas de Velación">
         </div>
 
          <div class="mb-3 pics animation all 2">
-         <img class="img-fluid" src="./img/galeria/14.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/14.jpeg" alt="Prevenir Express Salas de Velación">
         </div>
 
          <div class="mb-3 pics animation all 3">
-         <img class="img-fluid" src="./img/galeria/15.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/15.jpeg" alt="Prevenir Express Eventos">
         </div>
 
          <div class="mb-3 pics animation all 3">
-         <img class="img-fluid" src="./img/galeria/16.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/16.jpeg" alt="Prevenir Express Eventos">
         </div>
 
          <div class="mb-3 pics animation all 3">
-         <img class="img-fluid" src="./img/galeria/17.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/17.jpeg" alt="Prevenir Express Eventos">
         </div>
 
         <div class="mb-3 pics animation all 3">
-         <img class="img-fluid" src="./img/galeria/18.jpeg" alt="PrevenirPublicidad">
+         <img class="img-fluid" src="./img/galeria/18.jpeg" alt="Prevenir Express Eventos">
         </div>
 
         <!-- Grid column -->

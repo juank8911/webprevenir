@@ -7,10 +7,10 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
        <div class="carousel-item active">
-        <img src="images/prevenir/banners/BannerPrincipal_Prevenir.png" class="d-block w-100" alt="...">
+        <img src="images/prevenir/banners/BannerPrincipal_Prevenir.png" class="d-block w-100" alt="Prevenir Express Información">
       </div>
       <div class="carousel-item">
-        <img src="images/prevenir/banners/bannerNuevo1.png" class="d-block w-100" alt="...">
+        <img src="images/prevenir/banners/bannerNuevo1.png" class="d-block w-100" alt="Prevenir Express Líneas de emergencia funeraria">
         <br/>
         <button type="button" class="btn btn-primary" style=" background-color: #00aeef;
         border-color: #00aeef;
@@ -20,11 +20,11 @@
       </button>
     </div>
     <div class="carousel-item">
-      <img src="images/prevenir/banners/bannerNuevo2.png" class="d-block w-100" alt="...">
+      <img src="images/prevenir/banners/bannerNuevo2.png" class="d-block w-100" alt="Prevenir Express Óptica">
 
     </div>
     <div class="carousel-item">
-      <img src="images/prevenir/banners/bannerNuevo3.png" class="d-block w-100" alt="...">
+      <img src="images/prevenir/banners/bannerNuevo3.png" class="d-block w-100" alt="Prevenir Express Líneas de emergencia funeraria">
       <br/>
       <button type="button" class="btn btn-primary" style=" background-color: #00aeef;
       border-color: #00aeef;
@@ -34,10 +34,10 @@
     </button>
   </div>
   <div class="carousel-item">
-    <img src="images/prevenir/banners/bannerNuevo4.png" class="d-block w-100" alt="...">
+    <img src="images/prevenir/banners/bannerNuevo4.png" class="d-block w-100" alt="Prevenir Express Redes Sociales">
   </div>
   <div class="carousel-item">
-    <img src="images/prevenir/banners/bannerNuevo5.png" class="d-block w-100" alt="...">
+    <img src="images/prevenir/banners/bannerNuevo5.png" class="d-block w-100" alt="Prevenir Express Google Play App Store">
   </div>
 </div>
 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
